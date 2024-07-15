@@ -85,8 +85,7 @@ The main entry to the program is through the file named `main.py`. The example b
 
 ```python
 if __name__ == '__main__':
-    car = CarSystem()
-    car_interface = VehicleInterface(car, 2156)  # Replace 2156 with any free port number
+    car_interface = VehicleInterface(2156)  # Replace 2156 with any free port number
     car_interface.open_connection()
     while(True):
         if input() == ord('Q'):
