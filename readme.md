@@ -20,6 +20,7 @@ Drive-Wise (Driving station) is a comprehensive system designed to enhance vehic
 ## Features
 
 - Communicate with a vehicle through a REST API to get the speed and distance of the vehicle.
+![API](https://github.com/MoKenawy/DriveWise-Driving-Station/blob/main/.github/API%202.png)
 - Control the vehicle remotely.
 - Detect speed, distance, and drowsiness violations.
 - Alarm the driver using an auditory alarm.
