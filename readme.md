@@ -8,6 +8,10 @@
 3. [Dependencies](#dependencies)
 4. [Installation](#installation)
 5. [Usage](#usage)
+6. [Future Work](#future-work)
+7. [License](#license)
+8. [Related Repositories](#related-repositories)
+9. [Contact](#contact)
 
 ## Introduction
 
@@ -82,14 +86,24 @@ The main entry to the program is through the file named `main.py`. The example b
 
 ```python
 if __name__ == '__main__':
-    car = CarSystem()
-    car_interface = VehicleInterface(car, 2156)  # Replace 2156 with any free port number
+    car_interface = VehicleInterface(2156)  # Replace 2156 with any free port number
     car_interface.open_connection()
     while(True):
         if input() == ord('Q'):
             sys.exit(0)
 ```
 go to "http://localhost/2156/apidocs" to try the API using Swagger UI
+
+
+## Future Work
+
+Here are some of the features we plan to implement in the future:
+
+- **Road Sign Detection**: Automatically detect and recognize road signs to know speed limits and other important information for each road.
+- **Phone Talking Recognition**: Detect when drivers are talking on the phone while driving to promote safe driving habits.
+- **Seatbelt Detection**: Ensure drivers and passengers are wearing seatbelts and alert them if they are not.
+- **Eating While Driving Recognition**: Detect when drivers are eating while driving to encourage safer driving practices.
+
 
 
 ## License
@@ -103,5 +117,4 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 ## Contact
 
 For any questions or feedback, please contact:
-- Mohammed Gamal: [email@example.com](mailto:email@example.com)
-```
+- Mohammed Gamal: [mokenawy.business@gmail.com](mailto:mokenawy.business@gmail.com)
