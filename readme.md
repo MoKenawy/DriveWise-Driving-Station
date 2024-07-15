@@ -103,5 +103,4 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 ## Contact
 
 For any questions or feedback, please contact:
-- Mohammed Gamal: [email@example.com](mailto:email@example.com)
-```
+- Mohammed Gamal: [mokenawy.business@gmail.com](mailto:mokenawy.business@gmail.com)
