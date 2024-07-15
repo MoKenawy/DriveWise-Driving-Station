@@ -56,12 +56,7 @@ Drive-Wise (Driving station) is a comprehensive system designed to enhance vehic
     pip install -r requirements.txt
    ```
 
-3. Set up the database:
-   ```bash
-   # Instructions for setting up Firebase or your chosen database
-   ```
-
-4. Run the application:
+3. Run the application:
    ```bash
    cd DriveWiseProject
    py main.py
@@ -96,9 +91,6 @@ if __name__ == '__main__':
 ```
 go to "http://localhost/2156/apidocs" to try the API using Swagger UI
 
-## Contributing
-
-We welcome contributions! Please read our [Contributing Guide](CONTRIBUTING.md) to learn how you can help improve ADAS.
 
 ## License
 
