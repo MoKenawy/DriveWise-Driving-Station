@@ -8,9 +8,10 @@
 3. [Dependencies](#dependencies)
 4. [Installation](#installation)
 5. [Usage](#usage)
-6. [License](#license)
-7. [Related Repositories](#related-repositories)
-8. [Contact](#contact)
+6. [Future Work](#future-work)
+7. [License](#license)
+8. [Related Repositories](#related-repositories)
+9. [Contact](#contact)
 
 ## Introduction
 
@@ -92,6 +93,17 @@ if __name__ == '__main__':
             sys.exit(0)
 ```
 go to "http://localhost/2156/apidocs" to try the API using Swagger UI
+
+
+## Future Work
+
+Here are some of the features we plan to implement in the future:
+
+- **Road Sign Detection**: Automatically detect and recognize road signs to know speed limits and other important information for each road.
+- **Phone Talking Recognition**: Detect when drivers are talking on the phone while driving to promote safe driving habits.
+- **Seatbelt Detection**: Ensure drivers and passengers are wearing seatbelts and alert them if they are not.
+- **Eating While Driving Recognition**: Detect when drivers are eating while driving to encourage safer driving practices.
+
 
 
 ## License
